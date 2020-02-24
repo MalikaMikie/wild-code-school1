@@ -1,0 +1,9 @@
+from math import*
+argentPossede = float(input())
+prixUnitaire = float(input())
+totalBonbons = 0
+
+while argentPossede > prixUnitaire:
+   argentPossede = argentPossede - prixUnitaire
+   totalBonbons = totalBonbons + 1
+print(totalBonbons)
